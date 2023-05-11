@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.a1fb411c.css","mappings":"AAAA,KAIE,kCAAmC,CACnC,iCAAkC,CAJlC,mCAAuC,CACxC,QAID","sources":["index.css"],"sourcesContent":["body {\n  font-family: 'Josefin Sans', sans-serif;\n margin: 0;\n  \n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n\n"],"names":[],"sourceRoot":""}

@@ -21,6 +21,11 @@ mongo.connection.on("connected",()=>{
         console.log("not Connected");
     }
 })
+app.use(express.static(path.join(__dirname, 'client','build')))
+app.get('*', async(req,res)=>{
+    res.sendFile(path.join(__dirname, 'client', 'build','index.html'))
+})
+
 //user_model for creating schema in Database
 require("./models/user_model")
 require("./models/sales_model")
