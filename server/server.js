@@ -5,6 +5,7 @@ const cors = require("cors")
 const bodyParser = require("body-parser")
 const mongo = require("mongoose")
 const { MONGO_URL } = require("./config");
+const path = require('path');
 
 
 app.use(express.json())
