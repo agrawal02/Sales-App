@@ -12,7 +12,7 @@ export const AddSales = () => {
 
         const { productName, quantity, amount } = salesData
         try {
-            await fetch("http://localhost:3200/addSales", {
+            await fetch("https://sales-app-9snj.onrender.com", {
 
                 method: 'POST',
                 headers: {

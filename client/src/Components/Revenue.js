@@ -6,7 +6,7 @@ export const Revenue = () => {
 
     const [sales, setSales] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:3200/topSales", {
+        fetch("https://sales-app-9snj.onrender.com", {
             method: "GET",
             headers: { "Authorization": "Bearer " + localStorage.getItem("token") }
         })

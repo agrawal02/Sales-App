@@ -15,7 +15,7 @@ const defaultRegistration = { firstName: "", lastName: "", email: "", password: 
         const { firstName, lastName, email, password } = regData
         setLoading(true)
         try {
-            fetch("http://localhost:3200/register", {
+            fetch("https://sales-app-9snj.onrender.com", {
                 method: "POST",
                 headers: { "Content-Type": "application/json"},
                 body: JSON.stringify({ firstName, lastName, email, password })

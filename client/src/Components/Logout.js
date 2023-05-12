@@ -18,7 +18,7 @@ export const Logout = () => {
     }).then((result) => {
       if (result.isConfirmed) {
         setLoading(true);
-        fetch("http://localhost:3200/logout", { method: "POST" })
+        fetch("https://sales-app-9snj.onrender.com", { method: "POST" })
           .then(() => {
             localStorage.clear("token");
             window.location.href = "/";

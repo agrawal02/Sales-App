@@ -16,7 +16,7 @@ export const Login = () => {
         setloading(true)
 
         try {
-            fetch("http://localhost:3200/login", {
+            fetch("https://sales-app-9snj.onrender.com", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ email, password })
